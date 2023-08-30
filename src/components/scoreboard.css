@@ -1,0 +1,28 @@
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    font-size: 30px;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+.score{
+    width: 100%;
+    text-align: center;
+    padding: 20px auto;
+}
+.x-score{
+    color: #370db3;
+    border-bottom: 5px solid #370db3;
+}
+.o-score{
+    color: #b00020;
+    border-bottom: 5px solid #b00020;
+}
+.inactive{
+    border-bottom: 5px solid transparent;     /*or instead of transparent it can be white*/
+}
